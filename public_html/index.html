@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prizes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/prizes.css" rel="stylesheet">
+        <meta name="author" content="Liisa Auer">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h2>Insert prizes</h2>
+                <div>
+                    <label for="prize">Prize</label><br>
+                    <input id="prize">
+                </div>
+                <button onclick="newPrize()">Insert price</button>
+                
+                <h2>Prizes</h2>
+                <ul id="prizes">
+                    
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Insert persons</h2>
+                <div>
+                    <label for="person">Person</label><br>
+                    <input id="person">
+                </div>
+                <button onclick="newPerson()">Insert person</button>
+                
+                <h2>Persons</h2>
+                <ul id="persons">
+                    
+                </ul>
+
+            </section>
+
+            <section>
+                <h2>Persons and prizes</h2>
+                <button onclick="toPerson()">Price to person</button>
+                <ul id="personAndPrice">
+                    
+                </ul>
+            </section>
+        </main>
+        <script src="js/Henriksson.js"></script>
+    </body>
+</html>
